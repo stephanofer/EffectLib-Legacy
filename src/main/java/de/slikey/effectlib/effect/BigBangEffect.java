@@ -24,7 +24,7 @@ public class BigBangEffect extends Effect {
     public float radius = 2;
     public int explosions = 10;
     public int soundInterval = 5;
-    public Sound sound = Sound.ENTITY_GENERIC_EXPLODE;
+    public Sound sound = Sound.EXPLODE;
     public float soundVolume = 100;
     public float soundPitch = 1;
     protected int step = 0;

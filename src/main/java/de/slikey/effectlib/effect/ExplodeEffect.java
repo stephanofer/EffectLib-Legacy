@@ -14,7 +14,7 @@ public class ExplodeEffect extends Effect {
      * Amount of spawned smoke-sparks
      */
     public int amount = 25;
-    public Sound sound = Sound.ENTITY_GENERIC_EXPLODE;
+    public Sound sound = Sound.EXPLODE;
 
     public ExplodeEffect(EffectManager effectManager) {
         super(effectManager);
